@@ -1,0 +1,433 @@
+.estiloTitulos, .tituloH1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 50px;
+}
+
+.estiloTitulosContacto, .divApp, .divTituloFormulario, .tituloTiendas {
+  padding: 20px;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* header */
+.logo {
+  width: 100px;
+}
+
+.header {
+  border-top: 10px solid gold;
+  background-color: gainsboro;
+}
+
+.fuentesNav {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.carrito {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.fuentesNav a:hover {
+  background-color: gold;
+}
+
+button {
+  background-image: linear-gradient(to right, rgb(235, 214, 98), gold);
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Home */
+/* Banner home */
+.carousel {
+  margin-top: 135px;
+}
+
+.tituloH1 {
+  background-color: rgb(217, 247, 237);
+}
+
+.textoCentral {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  max-width: 50%;
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+/* Categorias */
+.contenedorSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contenedorLomasvendido {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.contenedorCategorias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s;
+}
+
+.contenedorCategorias:hover {
+  height: 350px;
+  width: 350px;
+}
+
+.contenedorCategoriasVendido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categoriasImg {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.categoriasP {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.precios {
+  font-weight: bold;
+  color: goldenrod;
+}
+
+/* DESAYUNOS Y MERIENDAS */
+.sectionH2 {
+  background-color: rgb(217, 247, 237);
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding: 50px;
+}
+
+.sectionH3 {
+  background-color: #784212;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+}
+
+/* ALMUERZO Y CENAS */
+.divAlmuerzo {
+  background-color: rgb(217, 247, 237);
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 50px;
+  margin-top: 135px;
+}
+
+.divTumomento {
+  background-color: rgb(217, 247, 237);
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+}
+
+/* iframe */
+iframe {
+  display: block;
+  margin: auto;
+}
+
+/* Estilo Tiendas*/
+.tituloTiendas {
+  background-color: gold;
+}
+
+.divLocales {
+  border: 2px solid black;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 20px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.divTiendas {
+  background-color: rgb(217, 247, 237);
+  border-top: 10px solid gold;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.divPickup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.parrafoTiendas {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.olPickup {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  list-style: none;
+}
+
+.ulPickup {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 17px;
+  list-style: none;
+}
+
+/* Estilo Formulario */
+.divTituloFormulario {
+  background-color: gold;
+  text-transform: uppercase;
+  margin-top: 130px;
+}
+
+.divFormulario {
+  width: 30vw;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 3px solid black;
+  margin: 40px;
+  padding: 0px;
+}
+
+.tituloFormulario {
+  text-align: center;
+  background-color: gold;
+  padding: 10px;
+}
+
+.tituloFormulario h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.olvido {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.boton {
+  background-color: gold;
+  border: none;
+  padding: 10px 60px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* ESTILO NUESTRA APP */
+.divApp {
+  background-color: gold;
+  border-bottom: 5px solid gray;
+  margin: 20px;
+}
+
+.Whastapp {
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.footer {
+  border-top: 5px solid gold;
+  background-color: rgb(240, 237, 237);
+  padding: 20px;
+}
+
+.footerContenido {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.divRedesSociales i {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.divRedesSociales ul li {
+  display: inline-block;
+}
+
+.divRedesSociales ul {
+  padding: 0px;
+}
+
+.divFooterNosotros a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.divFooterAyuda ul {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.divFooterAyuda li:hover {
+  color: gold;
+}
+
+.divFooterNosotros li a:hover {
+  color: gold;
+}
+
+.divRedesSociales i:hover {
+  color: gold;
+}
+
+/* RESPONSIVE home Categorias*/
+@media (max-width: 1024px) {
+  .contenedorSection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 500px) {
+  .contenedorSection,
+  .tituloH1 {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedorLomasvendido {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .sectionH3,
+  .contenedorLomasvendido {
+    display: none;
+  }
+}
+/* RESPONSIVE Tiendas*/
+@media (max-width: 500px) {
+  .divPickup img {
+    display: none;
+  }
+}
+/* RESPONSIVE Footer */
+@media (max-width: 1200px) {
+  .divFooterNosotros {
+    display: none;
+  }
+}
+@media (max-width: 540px) {
+  .footerContenido {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

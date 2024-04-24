@@ -1,0 +1,36 @@
+/* header */
+
+.logo {
+  width: 100px;
+}
+
+.header {
+  border-top: 10px solid gold;
+  background-color: gainsboro;
+}
+
+.fuentesNav {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.carrito {
+  width: 40px;
+  border-radius: 10px;
+}
+
+.fuentesNav a:hover {
+  background-color: gold;
+}
+
+button {
+  background-image: linear-gradient(to right, rgb(235, 214, 98), gold);
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

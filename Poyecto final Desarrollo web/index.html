@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Un nuevo servicio para nuestros clientes compra y retira sin demoras en nuetras zonas exclusivas a travez de nuestra pagina">
+    <link rel="shortcut icon" href="img/logo.PNG" type="image/x-icon">
+    <title>Home | Select</title>
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="navbar navbar-expand-lg header fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="./img/logo.PNG" alt="logo"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+                <nav class="navbar-nav  ms-auto fuentesNav">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./html/desayunos.meriendas.html">Desayunos y Meriendas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="./html/almuerzo.cena.html">Almuerzos y Cenas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link fs-5 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Contacto
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./html/tiendas.html">Inicios</a></li>
+                            <li><a class="dropdown-item" href="./html/formulario.html">Crea tu usuario</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/html/app.html">Nuestra App</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#"><img class="carrito" src="./img/carrito.png"
+                                alt="img carrtito"></a>
+                    </li>
+                    <li>
+                        <a href="./html/formulario.html"><button>ingresar</button></a>
+                    </li>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- carusel de imagenes -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/bannerensaladas (1) (1).png" class="d-block w-100" alt="bannerdesayunos">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bannerdesayunos (1).png" class="d-block w-100" alt="bannerensaladas">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/bannersandwiches  (1) (1).png" class="d-block w-100" alt="bannerensaladas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="tituloH1">
+            <h1>La forma mas rapida de comprar Select Pickup</h1>
+        </div>
+
+        <!-- categorias -->
+
+        <div class="sectionH3">
+            <h2>CATEGORIAS</h2>
+        </div>
+
+        <section class="contenedorSection">
+
+            <div class="contenedorCategorias">
+                <a href="./html/desayunos.meriendas.html"><img class="categoriasImg" src="img/cafeteria.jpg"
+                        alt="img de cafe y medialunas"></a>
+                <p class="categoriasP">Desayunos</p>
+            </div>
+
+            <div class="contenedorCategorias">
+                <a href="./html/almuerzo.cena.html"><img class="categoriasImg" src="img/Almuerzo.jpg"
+                        alt="img de hamburguesa"></a>
+                <p class="categoriasP">Almuerzos</p>
+            </div>
+
+            <div class="contenedorCategorias">
+                <a href="./html/desayunos.meriendas.html"><img class="categoriasImg" src="img/desayuno y merienda.jpg"
+                        alt="img de tostadas cafe"></a>
+                <p class="categoriasP">Meriendas</p>
+            </div>
+
+            <div class="contenedorCategorias">
+                <a href="./html/almuerzo.cena.html"><img class="categoriasImg"
+                        src="img/EnsaladaMixde-VegPechuquitas-300x300.jpg" alt="img de ensalada"></a>
+                <p class="categoriasP">Cenas</p>
+            </div>
+
+        </section>
+
+        <!-- Lo mas vendido -->
+
+        <div class="tituloH1">
+            <h2>Hace tu pedido on line y retiralo sin hacer filas </h2>
+        </div>
+        <div class="sectionH3">
+            <h3>LO MAS VENDIDO</h3>
+        </div>
+
+        <section class="contenedorLomasvendido">
+
+            <div class="contenedorCategoriasVendido">
+                <img class="categoriasImg" src="img/EMPANADAS-1-300x300.jpg" alt="img de empanadas">
+                <p class="categoriasP">Empanadas</p>
+                <p class="precios">$1.250</p>
+            </div>
+
+            <div class="contenedorCategoriasVendido">
+                <img class="categoriasImg" src="img/Frapuchinox3-300x300.jpg" alt="img de frape">
+                <p class="categoriasP">Frappes</p>
+                <p class="precios">$950</p>
+
+            </div>
+
+            <div class="contenedorCategoriasVendido">
+                <img class="categoriasImg" src="img/BUDIN_BananaDDL-300x300.jpg" alt="img de BUDIN">
+                <p class="categoriasP">Budines</p>
+                <p class="precios">$1.000</p>
+            </div>
+
+            <div class="contenedorCategoriasVendido">
+                <img class="categoriasImg" src="img/cafeteria.jpg" alt="img de combo cafe">
+                <p class="categoriasP">Combo</p>
+                <p class="precios">$1.400</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footerContenido">
+
+            <div class="divFooterAyuda">
+                <h3>Necesitas Ayuda</h3>
+                <ul>
+                    <li><i class="bi bi-telephone"></i></i>TEL:0810-111-666</li>
+                    <li><i class="bi bi-clock"></i>Lunes a Viernes de 8hs a 22hs</li>
+                    <li><i class="bi bi-envelope"></i>Ayuda_ShellSelect </li>
+                </ul>
+            </div>
+
+            <div class="divFooterNosotros">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="./html/tiendas.html">Nuestras Tiendas</a>
+                    </li>
+                    <li><a href="./html/formulario.html">Registrate</a></li>
+                    <li><a href="./html/app.html">Nuestra App</a></li>
+                </ul>
+            </div>
+
+            <div class="divRedesSociales">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/Meta" target="_blank"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i>
+                    </li>
+                    <li><a href="https://twitter.com/?lang=es" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- jS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

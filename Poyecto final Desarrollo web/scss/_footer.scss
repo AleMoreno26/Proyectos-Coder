@@ -1,0 +1,65 @@
+.footer {
+  border-top: 5px solid gold;
+  background-color: rgb(240, 237, 237);
+  padding: 20px;
+}
+
+.footerContenido {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.footer h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  text-align: center;
+
+}
+
+.divRedesSociales i {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.divRedesSociales ul li {
+  display: inline-block;
+
+}
+
+.divRedesSociales ul {
+  padding: 0px;
+}
+
+.divFooterNosotros a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  @include anclas
+}
+
+.divFooterAyuda ul {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.divFooterAyuda li:hover {
+  color: gold;
+}
+
+.divFooterNosotros li a:hover {
+  color: gold;
+}
+
+.divRedesSociales i:hover {
+  color: gold;
+}

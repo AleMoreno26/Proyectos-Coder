@@ -1,0 +1,58 @@
+/* RESPONSIVE home Categorias*/
+@media (max-width: 1024px) {
+  .contenedorSection {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .contenedorSection,
+  .tituloH1 {
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+    padding: 20px;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .contenedorLomasvendido {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .sectionH3,
+  .contenedorLomasvendido {
+    display: none;
+  }
+}
+
+
+
+/* RESPONSIVE Tiendas*/
+
+@media (max-width: 500px) {
+  .divPickup img {
+    display: none;
+  }
+}
+
+
+
+/* RESPONSIVE Footer */
+
+@media (max-width: 1200px) {
+  .divFooterNosotros {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .footerContenido {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
