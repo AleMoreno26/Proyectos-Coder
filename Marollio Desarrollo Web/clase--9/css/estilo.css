@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tamLogo {
+    width: 170px;
+}
+
+.encabezado {
+    border-top: 20px solid #c1101a;
+    background-color:#fafafa;
+}
+
+.fuentesNav {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.fuentesNav a:hover {
+    background-color: #c1101a;
+    color: #fafafa;
+}
+
+/*Banner Productos */
+
+.tituloProductos {
+    background-color: #c1101a;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 16px;
+}
