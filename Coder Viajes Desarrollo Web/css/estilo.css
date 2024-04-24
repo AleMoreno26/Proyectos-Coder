@@ -1,0 +1,152 @@
+/*DISEÑO RESPONSIVE*/
+/*El diseño se debe adaptar a cualquier ancho de pantalla*/
+
+/*
+Podemos usar: 
+
+- Medias Queries: son reglas de CSS que permite aplicar estilos especificos segun el ancho del dispositivo. Tambien aplicamos para impresoras y celus segun su orientacion. 
+
+- Flex y Grid: son tecnicas de diseño que me permiten crear diseños flexibles. 
+
+- Imagenes de buena calidad. 
+
+- No se olvide de revisar que este la etiqueta meta viewport.
+
+- Para textos, lo mejor es usar REM. 
+
+
+*/
+
+/*MOBILE FIRST*/
+
+/*
+El enfoque esta en las  pantallitas más chiquitas. Empezamos a codear y diseñar desde el celular, despues vamos creciendo en pantallas: 
+
+- Priorizar el contenido.
+
+- Carga rapido. 
+
+- Medias querias. 
+
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILOS AL HEADER*/
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+
+    /*Usamos FLEX*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+nav li {
+    margin-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* BANNER */
+
+.fondo {
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.textoCentral {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7) ;
+    border-radius: 10px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.textoCentral h2 {
+    font-size: 4rem;
+}
+
+.textoCentral p {
+    font-size: 2rem;
+}
+
+/* DESTINOS  */
+
+.paquetes {
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 3rem;
+}
+
+.destinos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.destinos img {
+    border-radius: 10px;
+    max-width: 100%;
+    /* height: auto;  */
+}
+
+
+/*MEDIAS QUERIES*/
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    .destinos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (max-width:500px) {
+    .destinos {
+        grid-template-columns: 1fr;
+    }
+
+    .textoCentral h2 {
+        font-size: 3rem;
+    }
+}
