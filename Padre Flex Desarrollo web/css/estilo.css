@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* ESTILOS AL BODY */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+}
+
+/*  HEADER */
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #fff;
+    border-bottom: #3fbbc0 solid 2px;
+
+}
+
+.tituloPrincipal {
+    color: #3fbbc0;
+    text-decoration: none;
+    font-size: 2.5rem;
+}
+
+
+.encabezado nav ul li {
+
+    display: inline-block;
+    list-style-type: none;
+}
+
+.encabezado nav ul li a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+/* IMAGEN DE FONDO */
+
+.imagenFondo {
+    background-image: url("../img/imagen--principal.jpg");
+    background-size: cover;
+    height: calc(100vh - 100px);
+}
+
+/* SAMU CAJA */
+
+.samuCaja {
+    border-top: 2px solid #3fbbc0;
+    border-radius: 4px;
+    height: 250px;
+    width: 500px;
+    margin: 30px;
+
+    /* left: 30%;
+    top: 30%; */
+    position: absolute;
+    /* Centramos de forma simple */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    /******************************/
+    /* ctrl + k + u */
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* box shadow */
+    box-shadow: 20px 2px 10px;
+    /* Opacidad */
+    opacity: 90%;
+
+    max-width: 90%;
+}
+
+.botonAsociar {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #3fbbc0;
+}
+
+/* SERVICIOS */
+
+#servicios {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajita {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+}
+
+.cajita p {
+    margin-top: 10px;
+}
+
+/* UBICACIÓN */
+
+
+#ubicacion {
+    /* height: 300px;  */
+    width: 100%;
+    background-color: #3fbbc0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#ubicacion h2 {
+    margin: 20px 40px;
+    font-size: 2.5rem;
+}
+
+#ubicacion p {
+    margin: 40px;
+}
+
+/* CONTACTO */
+
+#contacto {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #444444;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+}
+
+.campo {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.tamBotonForm {
+    width: 200px;
+    margin: auto;
+}
+
+/* NUESTRAS OFICINAS */
+
+.nuestrasOficinas {
+    width: 40vw;
+    margin: 20px 20px;
+    margin-right: 20px;
+}
+
+.tituloOficinas {
+    margin-top: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    border-top: #444444 2px solid;
+    background-color: #3fbbc0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Medias Queries */
+
+@media (min-width:400px) and (max-width:900px) {
+    #servicios {
+        flex-wrap: wrap;
+    }
+
+    .oficina {
+        display: none;
+    }
+
+    #contacto {
+        flex-direction: column;
+        border: none;
+    }
+
+    #contacto form {
+        width: 90vw;
+    }
+
+    .campo {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .encabezado ul li a {
+        display: none;
+    }
+
+}
